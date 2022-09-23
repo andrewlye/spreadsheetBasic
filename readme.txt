@@ -6,6 +6,8 @@
 
 The spreadsheet consists of a two-dimensional series of cells indexed by column letters and row numbers. The spreadsheet is 12 columns (A-L) by 20 rows. 
 
+The program is run by accessing src/Spreadsheet.java
+
 A letter followed by a number identifies cells (e.g. "A13" or "D7"). The program repeatedly accepts commands (for the user to change values, perform operations, etc.) until the user types 'quit', at which the program terminates. 
 
 Some commands specify not just cells, but cell ranges. A cell range is a group of cells in a rectangular region. A1-B7, A1-A7, A1-C8 are all valid cell ranges. Cell ranges always specify two opposite corners of the rectangle of cells in the range, and the upper-left corner always comes first as in the preceding examples.
